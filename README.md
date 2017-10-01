@@ -7,8 +7,7 @@ Master 1 ICE, GLa - V&V - Labs ([course materials](https://combemale.github.io/t
 ## Test Unitaire pour Java avec JUnit
 
 > Q.1a Tester les constructeurs 1 et 2 (dans une classe de test TestMyPoint). Pour cela, utiliser la Javadoc pour
-comprendre le comportement attendu des constructeurs. Utilisez des assertions pour vérifier les valeurs, par
-exemple :
+comprendre le comportement attendu des constructeurs. Utilisez des assertions pour vérifier les valeurs, par exemple :
 
     ...
     assertEquals (0d, point . getX (), 0.0001);
