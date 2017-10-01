@@ -2,7 +2,7 @@
 
     Master 1 ICE
     GLa - V&V - Labs
-    Course materials on https://combemale.github.io/teaching/ice/m1/
+    [Course materials](https://combemale.github.io/teaching/ice/m1/)
 
 Créez un projet Java, récupérez la classe MyPoint, et rajoutez la librairie JUnit à votre projet. 
 
