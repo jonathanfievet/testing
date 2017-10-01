@@ -2,9 +2,9 @@
 
     Master 1 ICE
     GLa - V&V - Labs
-    Materials on https://github.com/selabs-ut2j/testing
+    Course materials on https://combemale.github.io/teaching/ice/m1/
 
-Créez un projet Java, créez une classe MyPoint.java avec le code [ici](https://gist.github.com/combemale/f915203149ca459ee2cd4bdb7233efc4), et rajoutez la librairie JUnit à votre projet. 
+Créez un projet Java, récupérez la classe MyPoint, et rajoutez la librairie JUnit à votre projet. 
 
 ## Test Unitaire pour Java avec JUnit
 
