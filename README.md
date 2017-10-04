@@ -52,4 +52,4 @@ Avec Mockito :
 
 Avec Easymock : voir la refcard et les slides du cours.
 
-> Q.3c Supposons que nous ne disposons pas d’une implémentation de ITranslation pour tester cette opération, suivez les différentes étapes expliquées dans le cours pour utiliser Mockito et tester finalement cette opération.
+> Q.3c Supposons que nous ne disposons pas d’une implémentation de ITranslation pour tester cette opération, utilisez Mockito ou Easymock et tester finalement cette opération.
