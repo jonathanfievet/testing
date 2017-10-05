@@ -118,7 +118,7 @@ class MyPointUnitTest {
     }
 
     @Test
-    void testComputeAngleXZeroYLessZero() {
+    void testComputeAngleXZeroYEqualYParam() {
         MyPoint myPointToCompute = new MyPoint(32d, 26d);
 
         assertEquals(5.235, myPointToCompute.computeAngle(myPointNumbers), 0.001);
