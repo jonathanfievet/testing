@@ -53,3 +53,12 @@ Avec Mockito :
 Avec Easymock : voir la refcard et les slides du cours.
 
 > Q.3c Supposons que nous ne disposons pas d’une implémentation de ITranslation pour tester cette opération, utilisez Mockito ou Easymock et tester finalement cette opération.
+
+## Evaluation 
+
+1. clonez le repo github
+2. créez un fichier Markdown dans lequel vous préciserez les noms du binome, et répondrez aux questions posées dans le sujet
+3. rajouter votre projet Java (/Scala) au repo
+4. faite une pull request une fois terminé, qui servira à l'évaluation. 
+
+==> A rendre avant ce soir :)
