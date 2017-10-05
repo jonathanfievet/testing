@@ -104,19 +104,42 @@ class MyPointUnitTest {
     }
 
     @Test
-    void testComputeAngle() {
+    void testComputeAngleMoreZero() {
         MyPoint myPointToCompute = new MyPoint(50d, 23d);
 
         assertEquals(3.306, myPointToCompute.computeAngle(myPointNumbers), 0.001);
     }
 
     @Test
-    void testRotatePoint() {
+    void testComputeAngleXZero() {
+        MyPoint myPointToCompute = new MyPoint(0d, 23d);
+
+        assertEquals(-0.093, myPointToCompute.computeAngle(myPointNumbers), 0.001);
+    }
+
+    @Test
+    void testComputeAngleXZeroYLessZero() {
+        MyPoint myPointToCompute = new MyPoint(32d, 26d);
+
+        assertEquals(5.235, myPointToCompute.computeAngle(myPointNumbers), 0.001);
+    }
+
+    @Test
+    void testRotatePointThetaMoreZero() {
         MyPoint myPointToRotate = new MyPoint(2d, 23d);
         MyPoint myPointRotated = myPointToRotate.rotatePoint(myPointNumbers, 10);
 
         assertEquals(52.275, myPointRotated.getX(), 0.001);
         assertEquals(55.872, myPointRotated.getY(), 0.001);
+    }
+
+    @Test
+    void testRotatePointThetaLessZero() {
+        MyPoint myPointToRotate = new MyPoint(2d, 23d);
+        MyPoint myPointRotated = myPointToRotate.rotatePoint(myPointNumbers, -3);
+
+        assertEquals(60.429, myPointRotated.getX(), 0.001);
+        assertEquals(45.143, myPointRotated.getY(), 0.001);
     }
 
     @Test
