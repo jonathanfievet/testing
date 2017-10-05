@@ -1,4 +1,4 @@
-package main.fr.ut2j.m1ice.ootesting;
+package src;
 
 import java.util.Random;
 
@@ -28,9 +28,13 @@ public class MyPoint {
 	 * @param y The Y-coordinate to set.
 	 */
 	public MyPoint(final double x, final double y) {
-		super();
-		this.x = x;
-		this.y = y;
+		this.x = 0;
+		this.y = 0;
+
+		if (!Double.isNaN(x))
+			this.x = x;
+		if (!Double.isNaN(y))
+			this.y = y;
 	}
 
 
@@ -41,7 +45,12 @@ public class MyPoint {
 	 * @param pt The IMyPoint, if null the default value (0,0) will be used.
 	 */
 	public MyPoint(final MyPoint pt) {
-		this(pt.x, pt.y);
+		this();
+
+		if (pt != null) {
+			this.setX(pt.x);
+			this.setY(pt.y);
+		}
 	}
 
 
@@ -50,7 +59,8 @@ public class MyPoint {
 	 * @param newX The new X coordinate. Must be valid (not equal Double.NaN), otherwise nothing is done.
 	 */
 	public void setX(final double newX) {
-		x = newX;
+		if (!Double.isNaN(newX))
+			x = newX;
 	}
 
 
@@ -59,7 +69,8 @@ public class MyPoint {
 	 * @param newY The new Y coordinate. Must be valid (not equal Double.NaN), otherwise nothing is done.
 	 */
 	public void setY(final double newY) {
-		x = newY;
+		if (!Double.isNaN(newY))
+			y = newY;
 	}
 
 
