@@ -162,8 +162,6 @@ public class MyPoint {
 
 		if(Double.compare(angle, 0d) == 0) return new MyPoint(this);
 
-		System.out.println(angle - PI / 2d);
-
 		if(Double.compare(angle - PI / 2d, 0.) == 0) {
 			cosTheta = 0d;
 			sinTheta = 1d;
