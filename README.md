@@ -57,7 +57,7 @@ Avec Easymock : voir la refcard et les slides du cours.
 ## Evaluation 
 
 1. clonez le repo github
-2. créez un fichier Markdown dans lequel vous préciserez les noms du binome, et répondrez aux questions posées dans le sujet
+2. créez un nouveau fichier Markdown ou modifiez README.md, dans lequel vous préciserez les noms du binome et répondrez aux questions posées dans le sujet
 3. rajouter votre projet Java (/Scala) au repo
 4. faite une pull request une fois terminé, qui servira à l'évaluation. 
 
